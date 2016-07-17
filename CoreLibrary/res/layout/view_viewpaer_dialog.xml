@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewPager_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.core.nice_view.photoview.HackyViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        />
+
+    <com.core.nice_view.CirPageIndicator
+        android:id="@+id/cirPageIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/viewPager"
+        android:layout_marginBottom="7dp" />
+
+</RelativeLayout>

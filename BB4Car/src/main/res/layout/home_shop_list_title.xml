@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/app_color"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/dipX45">
+    <TextView
+        android:id="@+id/id_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="服务门店"
+        android:textColor="@color/text_white"
+        android:layout_centerInParent="true"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/id_tv_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="好评优先"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:drawableBottom="@drawable/errow_drop_down_white"
+        android:layout_marginRight="@dimen/dipX5"
+        android:textColor="@color/white"/>
+</RelativeLayout>

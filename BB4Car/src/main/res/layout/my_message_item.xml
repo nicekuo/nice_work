@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:padding="3dip"
+    android:gravity="center_vertical">
+    <com.core.widget.image.SFImageView
+        android:id="@+id/id_img_head"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:src="@drawable/default_user_icon"
+        android:background="@color/orange_color"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="right">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dip"
+            >
+            <TextView
+            android:id="@+id/id_tv_msg_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:text="温馨提示"
+            android:textSize="18sp" />
+            <TextView
+                android:id="@+id/id_tv_msg_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:textColor="@color/bg_gray"
+                android:layout_toLeftOf="@+id/id_tv_msg_date"
+                android:layout_alignBottom="@+id/id_tv_msg_title"
+                android:text="纳能客服"/>
+            <TextView
+                android:id="@+id/id_tv_msg_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016-03-17"
+                android:textColor="@color/bg_gray"
+                android:layout_alignParentRight="true"
+                android:layout_alignBottom="@+id/id_tv_msg_title"
+                android:layout_marginRight="25dip"/>
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/id_tv_msg_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:paddingTop="3dip"
+            android:paddingLeft="5dip"
+            android:textColor="@color/bg_gray"
+            android:text="您还有未评价的订单，评价有机会获取优惠券哦！"/>
+    </LinearLayout>
+
+</LinearLayout>

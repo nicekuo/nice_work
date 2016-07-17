@@ -1,0 +1,26 @@
+<resources>
+    <color name="black">#000</color>
+    <color name="app_color">#33c8ca</color>
+    <color name="app_bg_color">#f4f4f4</color>
+    <color name="valid_code">#FFBB22</color>
+    <color name="bg_gray">#f1f1ed</color>  <!-- 灰色 -->
+    <color name="line_color">#dddddd</color>
+    <color name="red_clolor">#ff6666</color>
+    <color name="blue_color">#0096db</color>
+    <color name="orange_color">#FF6100</color>
+    <color name="deep_yellow_color">#FFD700</color>
+    <color name="yellow_color">#FFFACD</color>
+    <color name="coupon_price_color">#FF7F24</color>
+    <color name="red_color">#ff0000</color>
+    <color name="j_wheel_timebtn_nor">#54a3fa</color>
+    <color name="j_wheel_timebtn_pre">#CCCCCC</color>
+
+    <color name="red">#ff6666</color>
+    <color name="poper">#56124b</color>
+    <color name="province_line_border">#ff7070</color>
+
+    <color name="black_thrity">#4c000000</color>
+
+    <color name="common_grey">#929292</color>
+
+</resources>

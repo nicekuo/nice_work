@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg_color"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="@dimen/dipX15">
+
+            <com.core.widget.image.SFImageView
+                android:id="@+id/car_logo"
+                android:layout_width="@dimen/dipX45"
+                android:layout_height="@dimen/dipX45"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/car_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/text_333333"
+                android:layout_marginLeft="@dimen/dipX10"
+                android:textSize="@dimen/txt_size_item_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/select_time"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_button_height"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/dipX15"
+            android:layout_marginRight="@dimen/dipX15"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/dipX10"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/dipX15"
+                android:text="上路时间"
+                android:textColor="@color/text_333333"
+                android:textSize="@dimen/txt_size_title_side" />
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="@color/text_333333"
+                android:textColorHint="@color/text_666666"
+                android:textSize="@dimen/txt_size_item_middle" />
+
+            <ImageView
+                android:id="@+id/id_icon_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/dipX15"
+                android:background="@drawable/icon_errow_right"
+
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_button_height"
+            android:layout_marginLeft="@dimen/dipX15"
+            android:layout_marginRight="@dimen/dipX15"
+            android:layout_marginTop="@dimen/dipX10"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/dipX15"
+                android:text="行驶里程"
+                android:textColor="@color/text_333333"
+                android:textSize="@dimen/txt_size_title_side" />
+
+            <EditText
+                android:id="@+id/kilometers"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:hint="请输入公里数"
+                android:textColor="@color/text_333333"
+                android:textColorHint="@color/text_666666"
+                android:gravity="center"
+                android:background="@color/white"
+                android:inputType="number"
+                android:textSize="@dimen/txt_size_item_middle" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="公里"
+                android:paddingLeft="@dimen/dipX5"
+                android:textColor="@color/text_333333"
+                android:textSize="@dimen/txt_size_title_side"
+                android:paddingRight="@dimen/dipX15"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/bn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_button_height"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/dipX15"
+        android:layout_marginRight="@dimen/dipX15"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:textSize="@dimen/txt_size_title_side"
+        android:text="添加"
+        android:layout_marginBottom="@dimen/dipX25"
+        />
+
+</FrameLayout>
+

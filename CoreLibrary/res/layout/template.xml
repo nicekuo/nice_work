@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_fill"
+    android:background="@color/text_white"
+    android:orientation="vertical" >
+
+    <com.core.wigets.TitleView
+        android:id="@id/title_iv_id"
+        style="@style/layout_fill_wrap" />
+
+    <FrameLayout
+        android:id="@+id/fl_panent_id"
+        style="@style/layout_fill">
+
+        <LinearLayout
+            android:id="@id/view_mainBody"
+            style="@style/layout_fill"
+            android:orientation="vertical" />
+
+        <!-- <FrameLayout android:id="@+id/shopping_car_id" android:layout_width="47dip" -->
+        <!-- android:layout_marginLeft="25dip" android:layout_height="45dip" -->
+        <!-- android:layout_gravity="bottom" android:layout_marginBottom="120dip" -->
+        <!-- android:visibility="gone"> -->
+        <!-- <ImageView android:layout_width="40dip" android:layout_height="40dip" -->
+        <!-- android:src="@drawable/img_shopping_cart" android:layout_gravity="bottom"/> -->
+        <!-- <TextView android:id="@+id/shopping_car_text_id" android:textSize="12sp" -->
+        <!-- android:layout_gravity="top|right" android:gravity="center" -->
+        <!-- style="@style/layout_wrap_content" android:textColor="@color/text_white" -->
+        <!-- android:background="@drawable/img_shopping_cart_number"/> -->
+        <!-- </FrameLayout> -->
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="view_alert_dlg" type="id" />
+    <item name="view_alert_dlg_new" type="id" />
+    <item name="view_alert_dlg_no_title" type="id" />
+    <item name="view_tag_picker_dlg" type="id" />
+    <item name="view_tips_dlg" type="id" />
+    <item name="view_tips_select_dlg" type="id" />
+    <item name="view_goods_return_dlg" type="id" />
+    <item name="view_share" type="id" />
+    <item name="view_share_dialog" type="id" />
+    <item name="view_collect_goods_dialog" type="id" />
+    <item name="view_share_goods_dialog" type="id" />
+    <item name="view_share_goods_dialog_hidden" type="id" />
+    <item name="hg_address_picker" type="id" />
+    <item name="view_contact_kefu" type="id" />
+    <item name="goods_sku_picker" type="id" />
+    <item name="dialogView" type="id" />
+</resources>

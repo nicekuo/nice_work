@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:test="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/title_hight"
+    android:background="@color/app_title_template"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip">
+
+    <!--android:background="@drawable/img_title_bg"-->
+    <ImageView
+        android:id="@+id/title_left_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="8dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_back" />
+
+    <TextView
+        android:id="@+id/title_right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/title_right_image"
+        android:layout_width="24dip"
+        android:layout_height="24dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/title_right_image_two"
+        android:layout_width="24dip"
+        android:layout_height="24dip"
+        android:layout_toLeftOf="@id/title_right_image"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:visibility="gone"
+        />
+
+    <com.core.cart.ViewCartMenuItem
+        android:id="@+id/cart"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        />
+
+
+
+    <com.core.wigets.SFBaseTextView
+        android:id="@id/title_text"
+        style="@style/layout_wrap_fill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLength="12"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        test:font_name="HELVETICANEUELTSTD-LTCN.OTF" />
+
+</RelativeLayout>

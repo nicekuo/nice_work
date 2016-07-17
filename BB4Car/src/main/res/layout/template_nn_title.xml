@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/title_height"
+    android:gravity="center_vertical"
+    android:paddingLeft="2dip"
+    android:paddingRight="2dip"
+    android:background="@color/app_color"
+    >
+  <Button
+      android:id="@+id/id_btn_title_left"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@color/app_color"
+      android:textColor="@color/white"
+      android:textSize="@dimen/txt_size_title_side"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/id_txv"
+       android:text="Bellabuy4"
+       android:textSize="@dimen/txt_size_title_content"
+       android:layout_centerInParent="true"
+       android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/id_btn_title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="好评优先"
+        android:textSize="@dimen/txt_size_title_side"
+        android:background="@color/app_color"
+        android:drawableBottom="@drawable/icon_drop_down"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>

@@ -1,0 +1,191 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="app_style_1" parent="android:style/Theme.Holo.Light.NoActionBar">
+        <item name="@android:windowAnimationStyle">@style/animationActivity</item>
+        <item name="android:selectableItemBackground">@drawable/d_list_view_select_bg</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/d_list_view_select_bg</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/d_list_view_select_bg</item>
+        <!-- 解决启时白屏的问题 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+    <style name="app_style_2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="colorPrimary">@color/title_bar_bg</item>-->
+        <!--<item name="colorPrimary">@color/line_color</item>-->
+        <item name="colorAccent">@color/common_red</item>
+        <!--<item name="android:textColorPrimary">@color/line_color</item>-->
+        <item name="@android:windowAnimationStyle">@style/animationActivity</item>
+        <item name="android:windowBackground">@color/text_white</item> <!-- app背影色 -->
+
+        <!--<item name="android:selectableItemBackground">@drawable/d_list_view_select_bg</item>-->
+        <!--<item name="android:listChoiceBackgroundIndicator">@drawable/d_list_view_select_bg</item>-->
+        <!--<item name="android:listChoiceIndicatorSingle">@drawable/d_list_view_select_bg</item>-->
+        <!-- 解决启时白屏的问题 -->
+<!--         <item name="android:windowIsTranslucent">true</item> -->
+<!--         <item name="android:windowNoTitle">true</item> -->
+<!--         <item name="android:windowActionBar">false</item> -->
+<!--         <item name="android:windowBackground">@android:color/transparent</item> -->
+    </style>
+
+
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!--<item name="colorPrimary">@color/title_bar_bg</item>-->
+        <!--<item name="colorPrimary">@color/line_color</item>-->
+        <item name="colorAccent">@color/common_red</item>
+        <!--<item name="android:textColorPrimary">@color/line_color</item>-->
+        <item name="@android:windowAnimationStyle">@style/animationActivity</item>
+        <item name="android:windowBackground">@color/text_white</item> <!-- app背影色 -->
+
+        <!--<item name="android:selectableItemBackground">@drawable/d_list_view_select_bg</item>-->
+        <!--<item name="android:listChoiceBackgroundIndicator">@drawable/d_list_view_select_bg</item>-->
+        <!--<item name="android:listChoiceIndicatorSingle">@drawable/d_list_view_select_bg</item>-->
+        <!-- 解决启时白屏的问题 -->
+        <!--         <item name="android:windowIsTranslucent">true</item> -->
+        <!--         <item name="android:windowNoTitle">true</item> -->
+        <!--         <item name="android:windowActionBar">false</item> -->
+        <!--         <item name="android:windowBackground">@android:color/transparent</item> -->
+
+    </style>
+
+    <style name="Theme.AppStartLoad" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <!--<item name="android:windowBackground">@drawable/splash_bg_new</item>-->
+    </style>
+
+
+
+    <style name="animationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/anim_slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/anim_stay_orig</item>
+        <item name="android:activityCloseEnterAnimation">@anim/anim_stay_orig</item>
+        <item name="android:activityCloseExitAnimation">@anim/anim_slide_right_out</item>
+    </style>
+    <!--首页样式-->
+    <style name="style_home_4_imgs">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">1dip</item>
+    </style>
+    <!--Rating bar-->
+    <style name="style_roomRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/d_rating_bar</item>
+        <item name="android:minHeight">30dip</item>
+        <item name="android:maxHeight">30dip</item>
+    </style>
+
+    <!--couponlist txtView-->
+    <style name="style_coupon_txt">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/txt_size_item_content</item>
+        <item name="android:layout_margin">@dimen/dipX3</item>
+    </style>
+
+    <style name="style_order_detail">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/txt_size_item_content</item>
+    </style>
+
+    <style name="style_order_detail_price_line">
+        <item name="android:layout_height">@dimen/dipX30</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!--用户个人信息编辑页-->
+    <style name="style_person_info_input">
+        <item name="android:layout_height">@dimen/dipX45</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:padding">@dimen/dipX5</item>
+        <item name="android:textSize">@dimen/txt_size_item_content</item>
+    </style>
+
+    <style name="style_checkout_tip_detail">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">@dimen/dipX3</item>
+        <item name="android:textSize">@dimen/txt_size_item_title</item>
+    </style>
+
+    <style name="style_detail_tip_size">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:padding">@dimen/dipX5</item>
+    </style>
+    <style name="style_detail_content">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_666666</item>
+        <item name="android:layout_marginLeft">@dimen/dipX5</item>
+    </style>
+    <style name="style_detial_see_more">
+        <item name="android:layout_height">@dimen/dipX45</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:drawableRight">@drawable/icon_errow_right</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="style_order_tab_out">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/tab_title_height</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="style_order_tab_in">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/tab_blue_bg</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/txt_size_item_title</item>
+    </style>
+
+
+    <!--我的支付-->
+
+    <style name="style_m_pay_linear">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/dipX3</item>
+    </style>
+    <style name="style_m_pay_tip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/dipX45</item>
+        <item name="android:textSize">@dimen/txt_size_item_middle</item>
+        <item name="android:text">****</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <style name="j_timepopwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/j_anim_enter_bottom</item> <!-- 指定显示的动画xml -->
+        <item name="android:windowExitAnimation">@anim/j_anim_exit_bottom</item> <!-- 指定消失的动画xml -->
+    </style>
+
+
+
+</resources>

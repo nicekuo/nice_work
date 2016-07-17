@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="text_white">#FFFFFF</color>
+	<color name="transparent">#00000000</color>
+	<color name="half_transparent">#7f888888</color>
+	<color name="text_half_transparent">#70000000</color>
+	<color name="customactivityoncrash_primary">#3F51B5</color>
+    <color name="customactivityoncrash_primary_dark">#283593</color>
+    <color name="customactivityoncrash_accent">#FF4081</color>
+	<color name="background_tab_pressed">#6633B5E5</color>
+	<color name="grey5">#d3d3d3</color>
+	<color name="app_bg">#f4f4f4</color>
+	<color name="but_stroke_bg">#d3d3d3</color>
+	<color name="but_stroke_bg_2">#535353</color>
+	<color name="white">@android:color/white</color>
+	<color name="circular_progress_green">#FFff3652</color>
+	<color name="grey6">#5b5b5b</color>
+
+	<color name="text_333333">#333333</color>
+	<color name="text_666666">#666666</color>
+	<color name="text_999999">#999999</color>
+
+	<color name="app_title_template">#33c8ca</color>
+
+
+
+	<color name="transparent_black">#66000000</color>
+
+
+
+
+	<!-- -->
+
+
+
+	<color name="float_transparent">#00000000</color>
+	<color name="sweet_dialog_bg_color">#FFFFFF</color>
+	<color name="button_text_color">#FFFFFF</color>
+	<color name="gray_btn_bg_color">#D0D0D0</color>
+	<color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+	<color name="blue_btn_bg_color">#33c8ca</color>
+	<color name="blue_btn_bg_pressed_color">#96BFD2</color>
+	<color name="red_btn_bg_color">#DD6B55</color>
+	<color name="red_btn_bg_pressed_color">#CD5B55</color>
+	<color name="error_stroke_color">#F27474</color>
+	<color name="success_stroke_color">#A5DC86</color>
+	<color name="trans_success_stroke_color">#33A5DC86</color>
+	<color name="warning_stroke_color">#F8BB86</color>
+	<color name="text_color">#575757</color>
+	<color name="material_blue_grey_80">#ff37474f</color>
+	<color name="material_blue_grey_90">#ff263238</color>
+	<color name="material_blue_grey_95">#ff21272b</color>
+	<color name="material_deep_teal_20">#ff80cbc4</color>
+	<color name="material_deep_teal_50">#ff009688</color>
+
+	<color name="common_red">#ff6666</color>
+	<color name="blue">#33c8ca</color>
+
+	<color name="black_10">#19000000</color>
+	<color name="black_50">#80000000</color>
+	<color name="black_80">#cc000000</color>
+	<color name="black_90">#e6000000</color>
+	<color name="black_95">#d6000000</color>
+
+	<color name="rating_color">#f3ad44</color>
+	<color name="line_color">#dddddd</color>
+
+</resources>

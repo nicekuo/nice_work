@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/app_color"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/dipX45">
+    <TextView
+        android:id="@+id/id_tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_home_login"
+        android:layout_marginLeft="@dimen/dipX5"
+        android:layout_centerVertical="true"
+        android:textColor="@color/text_white"
+        android:padding="@dimen/dipX10"/>
+
+    <TextView
+        android:id="@+id/id_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textColor="@color/text_white"
+        android:layout_centerInParent="true"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/id_tv_server"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hint_home_server"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dipX5"
+        android:padding="@dimen/dipX10"
+        android:textColor="@color/white"/>
+
+    <View
+        android:id="@+id/hide_entrance"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/id_tv_server"
+        />
+
+</RelativeLayout>

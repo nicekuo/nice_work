@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.finalteam.loadingviewfinal.SwipeRefreshLayoutFinal
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/refresh_layout"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"><!--设置loading颜色-->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/emptyView"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:text="什么都没有"
+            android:layout_height="match_parent" />
+
+        <cn.finalteam.loadingviewfinal.ListViewFinal
+            android:id="@+id/rv_games"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            app:noLoadMoreHideView="false" />
+        <!--默认false-->
+        <!--app:loadMoreMode="click|scroll"&lt;!&ndash;默认scroll&ndash;&gt;-->
+        <!--app:loadMoreView="cn.finalteam.loadingviewfinal.DefaultLoadMoreView"&lt;!&ndash;默认DefaultLoadMoreView，可在Java中配置&ndash;&gt;-->
+        <!--app:noLoadMoreHideView="false"&lt;!&ndash;没有更多了是否隐藏footerview&ndash;&gt;-->
+    </FrameLayout>
+</cn.finalteam.loadingviewfinal.SwipeRefreshLayoutFinal>

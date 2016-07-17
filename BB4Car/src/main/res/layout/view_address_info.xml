@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dipX40"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/dipX90"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dipX10"
+            android:text="收件人姓名" />
+
+        <TextView
+            android:id="@+id/id_ev_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dipX5"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/txt_size_item_content"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="5dip"
+        android:background="@color/app_bg_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dipX40"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/dipX90"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dipX10"
+            android:text="@string/hint_u_phone" />
+
+        <TextView
+            android:id="@+id/id_ev_user_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dipX5"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/txt_size_item_content"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/dipX5"
+        android:background="@color/app_bg_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dipX40"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/dipX90"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dipX10"
+            android:text="@string/hint_u_city" />
+
+        <TextView
+            android:id="@+id/id_ev_city"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dipX5"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/txt_size_item_content"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/dipX5"
+        android:background="@color/app_bg_color"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dipX40"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/dipX90"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dipX10"
+            android:text="@string/hint_u_detail" />
+
+        <TextView
+            android:id="@+id/id_detail_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/dipX5"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/txt_size_item_content"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dipX10">10dip</dimen>
+    <dimen name="dipX20">20dip</dimen>
+    <dimen name="dipX15">15dip</dimen>
+    <dimen name="dipX25">25dip</dimen>
+    <dimen name="dipX30">30dip</dimen>
+    <dimen name="dipX5">5dip</dimen>
+    <dimen name="dipX2">2dip</dimen>
+    <dimen name="dipX3">3dip</dimen>
+    <dimen name="dipX40">40dip</dimen>
+    <dimen name="dipX45">45dip</dimen>
+    <dimen name="dipX50">50dip</dimen>
+    <dimen name="dipX70">70dip</dimen>
+    <dimen name="dipX90">90dip</dimen>
+    <dimen name="title_height">50dip</dimen>
+    <!--应用的标题-->
+    <dimen name="dipX60">60dip</dimen>
+
+    <dimen name="tab_title_height">40dip</dimen>
+
+    <dimen name="item_img_size">70dip</dimen>
+    <dimen name="shop_item_image_height">70dip</dimen>
+    <dimen name="shop_item_height">120dip</dimen>
+
+    <dimen name="home_banner_height">100dip</dimen>
+    <dimen name="home_big_banner_height">120dip</dimen>
+
+    <dimen name="txt_size_item_title">15sp</dimen>
+    <dimen name="txt_size_item_content">12sp</dimen>
+
+    <dimen name="txt_size_item_middle">13sp</dimen>
+    <dimen name="txt_size_title_content">18sp</dimen>
+    <dimen name="txt_size_title_side">15sp</dimen>
+    <dimen name="small">8dp</dimen>
+
+
+    <dimen name="product_detail_image_size_height">240dip</dimen>
+
+    <dimen name="home_service_item_height">70dip</dimen>
+    <dimen name="home_service_item_image_height">60dip</dimen>
+    <dimen name="home_goods_item_height">200dip</dimen>
+    <dimen name="home_goods_item_image_height">100dip</dimen>
+    <dimen name="home_goods_item_icon_height">50dip</dimen>
+    <dimen name="home_introduce_item_height">60dip</dimen>
+    <dimen name="home_item_title_height">25dip</dimen>
+    <dimen name="rating_bar_size">20dp</dimen>
+</resources>

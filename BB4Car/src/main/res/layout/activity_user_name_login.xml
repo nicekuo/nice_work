@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="13dip"
+        android:text="用户名/密码方式登录"
+        android:textColor="@color/text_666666"
+        android:textSize="@dimen/txt_size_item_middle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dip"
+        android:background="@color/app_bg_color">
+
+    </View>
+
+    <EditText
+        android:id="@+id/id_et_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dipX45"
+        android:background="@color/white"
+        android:hint="请输入用户名/手机号"
+        android:maxLines="1"
+        android:padding="10dip"
+        android:textSize="@dimen/txt_size_item_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dip"
+        android:background="@color/app_bg_color">
+
+    </View>
+
+
+    <EditText
+        android:id="@+id/id_et_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dipX45"
+        android:background="@color/white"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="10dip"
+        android:textSize="@dimen/txt_size_item_content" />
+
+    <TextView
+        android:id="@+id/id_btn_pwd_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dipX45"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/dipX15"
+        android:layout_marginLeft="@dimen/dipX15"
+        android:text="@string/hint_login_tip"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

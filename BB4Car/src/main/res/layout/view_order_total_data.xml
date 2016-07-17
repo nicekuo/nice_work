@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dipX10"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout style="@style/style_order_detail_price_line">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="商品总价"
+            android:textColor="@color/text_999999"
+            android:layout_weight="1"
+            android:textSize="@dimen/txt_size_item_content"
+            />
+
+        <TextView
+            android:id="@+id/goods_total_price"
+            style="@style/style_order_detail"
+            android:textColor="@color/common_red"
+            android:text="********" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/style_order_detail_price_line">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/text_999999"
+            android:text="@string/hint_order_coupon_price" />
+
+        <TextView
+            android:id="@+id/id_tv_coupon_price"
+            style="@style/style_order_detail"
+            android:gravity="left"
+            android:textColor="@color/common_red"
+            android:text="********" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/style_order_detail_price_line">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/text_999999"
+            android:text="@string/hint_order_delivery_price" />
+
+        <TextView
+            android:id="@+id/id_tv_delivery_price"
+            style="@style/style_order_detail"
+            android:gravity="left"
+            android:textColor="@color/common_red"
+            android:text="********" />
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/style_order_detail_price_line">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/text_999999"
+            android:text="订单合计:" />
+
+        <TextView
+            android:id="@+id/id_pay_total_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:text="¥000"
+            android:textSize="@dimen/txt_size_item_title" />
+    </LinearLayout>
+
+
+</LinearLayout>

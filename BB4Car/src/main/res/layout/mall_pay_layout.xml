@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.core.wigets.ReboundScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/app_bg_color"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <LinearLayout style="@style/style_m_pay_linear">
+            <TextView
+                style="@style/style_m_pay_tip"
+                android:gravity="center_vertical"
+                android:text="@string/hint_total_price" />
+            <TextView
+                android:id="@+id/id_pay_total_price"
+                style="@style/style_m_pay_tip"
+                android:layout_marginLeft="@dimen/dipX5"
+                android:text="$100.00"
+               />
+        </LinearLayout>
+        <View
+            android:background="@color/app_bg_color"
+            android:layout_width="match_parent"
+            android:layout_height="1dip">
+
+        </View>
+        <LinearLayout style="@style/style_m_pay_linear">
+
+            <TextView
+                style="@style/style_m_pay_tip"
+                android:gravity="center_vertical"
+                android:text="@string/hint_delivery_price" />
+
+            <TextView
+                android:id="@+id/id_tv_delivery_price"
+                style="@style/style_m_pay_tip"
+                android:layout_marginLeft="@dimen/dipX5"
+                android:text="$2.00" />
+        </LinearLayout>
+        <View
+            android:background="@color/app_bg_color"
+            android:layout_width="match_parent"
+            android:layout_height="1dip">
+
+        </View>
+        <LinearLayout style="@style/style_m_pay_linear">
+
+            <TextView
+                style="@style/style_m_pay_tip"
+                android:gravity="center_vertical"
+                android:text="@string/hint_coupon_price" />
+
+            <TextView
+                android:id="@+id/id_tv_coupon_price"
+                style="@style/style_m_pay_tip"
+                android:layout_marginLeft="@dimen/dipX5"
+                android:text="$10.00" />
+        </LinearLayout>
+        <View
+            android:background="@color/app_bg_color"
+            android:layout_width="match_parent"
+            android:layout_height="1dip">
+
+        </View>
+        <LinearLayout style="@style/style_m_pay_linear">
+
+            <TextView
+                style="@style/style_m_pay_tip"
+                android:gravity="center_vertical"
+                android:text="@string/hint_need_pay"
+                android:textColor="@color/valid_code"/>
+
+            <TextView
+                android:id="@+id/id_tv_need_pay"
+                style="@style/style_m_pay_tip"
+                android:layout_marginLeft="@dimen/dipX5"
+                android:text="$20.00"
+                android:textColor="@color/valid_code"/>
+        </LinearLayout>
+
+        <View
+            android:background="@color/app_bg_color"
+            android:layout_width="match_parent"
+            android:layout_height="1dip">
+
+        </View>
+        <LinearLayout style="@style/style_m_pay_linear">
+
+            <TextView
+                style="@style/style_m_pay_tip"
+                android:gravity="center_vertical"
+                android:text="@string/hint_need_receiver" />
+
+            <TextView
+                android:id="@+id/id_tv_receiver"
+                style="@style/style_m_pay_tip"
+                android:layout_marginLeft="@dimen/dipX5"
+                android:text="Sufun.wu" />
+        </LinearLayout>
+
+        <View
+            android:background="@color/app_bg_color"
+            android:layout_width="match_parent"
+            android:layout_height="1dip">
+
+        </View>
+        <LinearLayout style="@style/style_m_pay_linear">
+
+            <TextView
+                style="@style/style_m_pay_tip"
+                android:gravity="center_vertical"
+                android:text="@string/hint_need_phone" />
+            <TextView
+                android:id="@+id/id_tv_phone_number"
+                style="@style/style_m_pay_tip"
+                android:layout_marginLeft="@dimen/dipX5"
+                android:text="18601385779" />
+        </LinearLayout>
+
+        <View
+            android:background="@color/app_bg_color"
+            android:layout_width="match_parent"
+            android:layout_height="1dip">
+
+        </View>
+        <LinearLayout style="@style/style_m_pay_linear">
+
+            <TextView
+                style="@style/style_m_pay_tip"
+                android:gravity="center_vertical"
+                android:text="@string/hint_need_address" />
+            <TextView
+                android:id="@+id/id_tv_address"
+                style="@style/style_m_pay_tip"
+                android:layout_marginLeft="@dimen/dipX5"
+                android:text="BeiJing.CBD.China" />
+        </LinearLayout>
+        <com.core.widget.listview.NoScrollListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </com.core.widget.listview.NoScrollListView>
+        <TextView
+            android:id="@+id/payButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/butn_bottom"
+            android:textColor="@color/white"
+            android:text="@string/hint_go_pay"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+
+</com.core.wigets.ReboundScrollView>

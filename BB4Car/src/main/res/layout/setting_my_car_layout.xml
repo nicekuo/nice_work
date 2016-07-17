@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_gray"
+        android:gravity="center_horizontal">
+
+        <FrameLayout
+            android:id="@+id/id_lnea"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/empty"
+                android:text="还没有选择当前车型哦"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <com.naneng.jiche.ui.shopping_car.ViewMyCar
+                android:id="@+id/current_car"
+                android:layout_width="match_parent"
+                android:visibility="invisible"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/id_tv_post_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/dipX15"
+            android:text="@string/hint_other_car"
+            android:textColor="@color/text_666666" />
+
+        <com.core.widget.listview.NoScrollListView
+            android:id="@+id/id_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        </com.core.widget.listview.NoScrollListView>
+
+    </LinearLayout>
+
+
+</ScrollView>
+

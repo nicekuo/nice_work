@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/hint_login_register_tipe"
+        android:textColor="@color/text_666666"
+        android:textSize="@dimen/txt_size_item_middle" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dip"
+        android:background="@color/app_bg_color">
+
+    </View>
+
+    <EditText
+        android:id="@+id/id_ev_phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dipX45"
+        android:background="@color/white"
+        android:hint="@string/hint_input_phone_number"
+        android:maxLines="1"
+        android:padding="@dimen/dipX5"
+        android:textSize="@dimen/txt_size_item_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dip"
+        android:background="@color/app_bg_color">
+
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dipX45"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/id_ev_code"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dipX45"
+            android:layout_marginRight="@dimen/dipX5"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:hint="@string/hint_input_code"
+            android:maxLines="1"
+            android:padding="@dimen/dipX5"
+            android:textSize="@dimen/txt_size_item_content" />
+
+        <TextView
+            android:id="@+id/id_btn_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dip"
+            android:background="@color/blue"
+            android:paddingBottom="@dimen/dipX5"
+            android:paddingLeft="@dimen/dipX10"
+            android:paddingRight="@dimen/dipX10"
+            android:paddingTop="@dimen/dipX5"
+            android:text="@string/hint_get_verify_code"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_item_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dipX15"
+        android:paddingRight="@dimen/dipX15"
+        android:layout_height="@dimen/common_button_height">
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:checked="true"
+            />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dipX5"
+            android:text="我已阅读并接受《协议事宜》"
+            />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/id_btn_login"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dipX15"
+        android:layout_marginRight="@dimen/dipX15"
+        android:layout_height="@dimen/dipX45"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:background="@color/blue"
+        android:text="@string/hint_login_tip"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/id_txv_login_type_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:gravity="center_horizontal"
+        android:text="@string/hint_login_with_user_name"
+        android:textColor="@color/app_color"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/weichat_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/icon_wx_logo"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:id="@+id/weichat_login_tips"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_999999"
+            android:textSize="@dimen/txt_size_item_middle"
+            android:text="微信登录"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dipX5"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

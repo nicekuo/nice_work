@@ -1,0 +1,118 @@
+<resources>
+    <string name="hint_new_title">纳能机油的原理与功效介绍</string>
+    <string name="hint_new_content">增强动力节省燃油增强动力节省燃油</string>
+    <string name="hint_phone">010-84782552</string>
+    <string name="hint_comment_count">1561评论</string>
+    <string name="hint_login_register_tipe">使用手机号免注册直接登录</string>
+    <string name="hint_login_tip">登录</string>
+    <string name="hint_login_with_user_name">用户名密码的方式登录</string>
+    <string name="hint_get_verify_code">获取验证码</string>
+    <string name="hint_how_to_get_verify_code">请点击获取验证码按钮获取验证码</string>
+    <string name="hint_input_phone_number">请输入新手机号</string>
+    <string name="hint_input_code">请输入验证码</string>
+    <!--选择优惠券-->
+    <string name="hint_tip_code">编码:</string>
+    <string name="hint_tip_valid_date">有效期至:</string>
+    <string name="hint_service_coupon">优惠券类型:</string>
+    <string name="hint_service_coupon_detail">满100元可用</string>
+
+    <!--订单详情界面-->
+    <string name="hint_tip_order_detail">nice</string>
+    <string name="hint_tip_order_status">订单状态:</string>
+    <string name="hint_order_detail">待评价</string>
+    <string name="hint_order_create_time">2016年1月25日 14:11:04</string>
+    <string name="hint_tip_order_num">订单编号:</string>
+    <string name="hint_order_person_price">保养人工费:</string>
+    <string name="hint_order_total_price">订单总价:</string>
+    <string name="hint_order_coupon_price">优惠券:</string>
+    <string name="hint_order_delivery_price">快递费:</string>
+    <string name="hint_order_final_price">支付金额: ￥588.00</string>
+    <string name="hint_order_tip_do_comment">我来评论</string>
+    <string name="hint_order_good_name">我是******商品</string>
+
+
+    <string name="hint_post_edit">提交修改</string>
+
+    <!--个人信息编辑修改界面-->
+    <string name="hint_user_name">Luis.Lu</string>
+    <string name="hint_user_reset_password">重新设置密码</string>
+    <string name="hint_user_reset_user_phone">18601385779</string>
+    <string name="hint_user_input_new_phone">请输入新手机号</string>
+    <string name="hint_user_input_valid_code">请输入验证码</string>
+
+
+    <string name="common_template_data">Template data</string>
+
+    <!--购物车价格列表-->
+    <string name="hint_shopping_car_total">商品总金额: $866.00</string>
+    <string name="hint_delete">删除</string>
+
+
+    <string name="hint_confirm_order">确认订单</string>
+
+
+    <!--订单Checkout界面-->
+    <string name="hint_u_name">您的姓名</string>
+    <string name="hint_u_phone">联系方式</string>
+    <string name="hint_u_city">省市区</string>
+    <string name="hint_u_detail">街道地址</string>
+    <string name="hint_u_coupon_count">没有可使用的优惠券</string>
+    <string name="hint_u_order_total">商品总价 ¥</string>
+    <string name="hint_u_coupon">优惠券 ¥</string>
+    <string name="hint_u_need_pay">需支付 ¥</string>
+
+
+
+    <string name="hint_u_good_title">汽车用品汽车用品,汽车用品汽车用品,汽车用品汽车用品,汽车用品汽车用品</string>
+    
+    
+    <string name="hint_product_detail">查看产品详细说明</string>
+    <string name="hint_product_comments">查看用户评论(57)</string>
+    <string name="hint_product_size">容量</string>
+    <string name="hint_product_type">类型</string>
+    <string name="hint_product_use_ful">功效</string>
+
+
+    <!--我的爱车-->
+    <string name="hint_other_car">其它爱车</string>
+    <string name="hint_other_new">添加新的爱车</string>
+
+    <!--我的订单界面-->
+    <string name="hint_order_status_all">全部</string>
+    <string name="hint_order_status_unpaid">未付款</string>
+    <string name="hint_order_status_paid">已付款</string>
+    <string name="hint_order_status_comment">待评论</string>
+
+    <string name="hint_order_status">订单状态</string>
+    <string name="hint_order_num">订单编号:</string>
+
+    <!--支付界面-->
+    <string name="hint_go_pay">去支付</string>
+    <string name="hint_total_price">商品总价</string>
+    <string name="hint_delivery_price">快递费</string>
+    <string name="hint_coupon_price">优惠券</string>
+    <string name="hint_need_pay">需支付</string>
+    <string name="hint_need_receiver">收件人</string>
+    <string name="hint_need_phone">电   话</string>
+    <string name="hint_need_address">地  址</string>
+    
+    <!--用户提交相关的评论-->
+    <string name="hint_post_comment">提交评论</string>
+    <string name="hint_comment_limit">填写评论内容(100字以内)</string>
+    <string name="hint_comment_4_rating">点击或者滑动进行评分</string>
+    
+    <!--主页数据-->
+    <string name="hint_title_shop_list">服务门店</string>
+    <string name="hint_title_me">我的</string>
+    <string name="hint_home_server">客服</string>
+    <string name="hint_home_login">登录</string>
+
+    
+    <!--个人订单主页-->
+    <string name="hint_my_order">我的订单</string>
+    <string name="hint_my_shop_car">我的购物车</string>
+    <string name="hint_my_coupon">我的优惠券</string>
+    <string name="hint_my_like_car">我的爱车</string>
+    <string name="hint_my_collect">我的收藏</string>
+    <string name="hint_my_message">我的消息</string>
+</resources>

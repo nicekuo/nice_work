@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/appinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/dipX15"
+        android:layout_marginTop="@dimen/dipX15"
+        android:lineSpacingMultiplier="1.3"
+        android:textColor="@color/text_666666"
+        android:textIsSelectable="true"
+        android:textSize="@dimen/txt_size_item_middle"
+        android:visibility="gone" />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="base_url"
+        android:layout_marginTop="@dimen/dipX15"
+        android:layout_marginLeft="@dimen/dipX15"
+        >
+
+        <RadioButton
+            android:id="@+id/official"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_333333"
+            android:text="正式环境——api"
+            />
+
+        <RadioButton
+            android:id="@+id/develop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_333333"
+            android:text="开发环境-dev"
+            />
+
+    </RadioGroup>
+
+
+
+
+
+</LinearLayout>

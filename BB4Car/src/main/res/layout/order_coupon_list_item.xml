@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg_color"
+    android:paddingTop="@dimen/dipX3">
+<RelativeLayout
+    android:id="@+id/id_rela_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="@dimen/dipX60"
+        android:id="@+id/id_tv_price"
+        android:layout_height="@dimen/item_img_size"
+        android:text="20"
+        android:textColor="#FF7F24"
+        android:textSize="22sp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_tv_is_status"
+        android:text="已过期"
+        android:background="@color/text_666666"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        android:padding="@dimen/dipX3"
+        android:textSize="@dimen/txt_size_item_content"
+        android:layout_marginLeft="@dimen/dipX3"/>
+
+    <CheckBox
+        android:id="@+id/id_cb_check"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:layout_marginRight="@dimen/dipX5"/>
+
+    <LinearLayout
+        android:layout_toRightOf="@id/id_tv_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toLeftOf="@id/id_cb_check">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="horizontal">
+            <com.core.wigets.SFBaseTextView
+                android:id="@+id/id_tv_code_text"
+                style="@style/style_coupon_txt"
+                android:text="@string/hint_tip_code"/>
+            <com.core.wigets.SFBaseTextView
+                android:id="@+id/id_tv_code"
+                style="@style/style_coupon_txt"
+                android:text="123456"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.core.wigets.SFBaseTextView
+                android:id="@+id/id_tv_valid_date_text"
+                style="@style/style_coupon_txt"
+                android:text="@string/hint_tip_valid_date"/>
+            <com.core.wigets.SFBaseTextView
+                android:id="@+id/id_tv_valid_date"
+                style="@style/style_coupon_txt"
+                android:text="2016-06-07"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.core.wigets.SFBaseTextView
+                android:id="@+id/id_tv_type_text"
+                style="@style/style_coupon_txt"
+                android:text="@string/hint_service_coupon"/>
+            <com.core.wigets.SFBaseTextView
+                android:id="@+id/id_tv_type"
+                style="@style/style_coupon_txt"
+                android:text="服务抵用券"/>
+        </LinearLayout>
+
+        <com.core.wigets.SFBaseTextView
+            android:id="@+id/id_tv_coupon_des"
+            style="@style/style_coupon_txt"
+            android:text="@string/hint_service_coupon_detail"/>
+    </LinearLayout>
+</RelativeLayout>
+</LinearLayout>

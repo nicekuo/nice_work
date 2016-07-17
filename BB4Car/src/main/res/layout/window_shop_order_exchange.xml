@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_button_height"
+        android:textColor="@color/text_666666"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dipX15"
+        android:text="可更换商品列表"
+        />
+
+    <ListView
+        android:id="@+id/exchangeList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>

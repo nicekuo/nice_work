@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dipX10"
+        android:background="@color/white"
+        >
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#ff7273"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_666666"
+            android:textSize="@dimen/txt_size_item_content"
+            android:layout_marginLeft="@dimen/dipX10"
+            android:text="服务门店"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_color"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="@dimen/dipX5">
+
+        <com.core.widget.image.SFImageView
+            android:id="@+id/id_img_shop_img"
+            android:layout_width="@dimen/item_img_size"
+            android:layout_height="@dimen/item_img_size" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/dipX10"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/id_tv_shop_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_tip_order_detail"
+                android:textColor="@color/text_666666"
+                android:textSize="@dimen/txt_size_item_middle" />
+
+            <TextView
+                android:id="@+id/id_tv_shop_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dipX5"
+                android:drawableLeft="@drawable/icon_location"
+                android:drawablePadding="@dimen/dipX5"
+                android:text="@string/hint_tip_order_detail"
+                android:textColor="@color/text_666666"
+                android:textSize="@dimen/txt_size_item_middle" />
+
+            <TextView
+                android:id="@+id/mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/icon_phone"
+                android:drawablePadding="@dimen/dipX5"
+                android:layout_marginTop="@dimen/dipX5"
+                android:text="@string/hint_tip_order_detail"
+                android:textColor="@color/text_666666"
+                android:textSize="@dimen/txt_size_item_middle" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/id_img_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="@dimen/dipX15"
+            android:textSize="@dimen/txt_size_item_content"
+            android:background="@color/blue"
+            android:visibility="gone"
+            android:gravity="center"
+            android:text="@string/hint_order_tip_do_comment"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

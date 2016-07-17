@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_button_height"
+        android:layout_marginLeft="@dimen/dipX15"
+        android:layout_marginRight="@dimen/dipX15"
+        android:hint="修改信息"
+        android:textSize="@dimen/txt_size_item_middle"
+        android:layout_marginTop="@dimen/dipX30"
+        android:textColor="@color/text_333333"
+        android:textColorHint="@color/text_666666"
+        />
+
+    <DatePicker
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone"
+        >
+    </DatePicker>
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="性别"
+        android:layout_marginTop="@dimen/dipX15"
+        android:layout_marginLeft="@dimen/dipX15"
+        android:visibility="gone"
+        >
+
+        <RadioButton
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_333333"
+            android:text="男"
+            />
+
+        <RadioButton
+            android:id="@+id/two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_333333"
+            android:text="女"
+            />
+
+    </RadioGroup>
+
+
+</LinearLayout>

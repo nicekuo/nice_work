@@ -1,0 +1,103 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+def AAVersion = '3.2+'
+
+apt {
+    arguments {
+        androidManifestFile variant.outputs[0].processResources.manifestFile
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':CoreLibrary')
+    apt "org.androidannotations:androidannotations:$AAVersion"
+    compile "org.androidannotations:androidannotations-api:$AAVersion"
+    compile files('libs/TalkingData_Analytics_Android_SDK.jar')
+    compile files('libs/libammsdk.jar')
+    compile files('libs/alipaySdk-20160223.jar')
+    compile 'com.zhy:okhttputils:2.6.1'
+    compile files('libs/Xg_sdk_v2.45_20160510_1845.jar')
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        versionCode 7
+        versionName "1.2.1"
+        multiDexEnabled = true
+    }
+
+    buildTypes {
+
+        debug {
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            buildConfigField "boolean", "IS_DEBUG", "true"
+            manifestPlaceholders = [CHANNEL: "10000"]
+        }
+
+
+        release {
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            buildConfigField "boolean", "IS_DEBUG", "false"
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
+
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                        // 输出apk名称为boohee_v1.0_2015-01-15_wandoujia.apk
+//                        def fileName = "higo_${defaultConfig.versionName}_${variant.buildType.name}" + ".apk"
+                        def fileName = "jiche_${defaultConfig.versionName}_${variant.buildType.name}_${variant.productFlavors[0].manifestPlaceholders.get("CHANNEL")}_${variant.productFlavors[0].name}" + ".apk"
+//                        def fileName = "higo_${defaultConfig.versionName}_${variant.buildType.name}_${variant.productFlavors[0].manifestPlaceholders.get("CHANNEL")}_${variant.productFlavors[0].name}" + "_" + buildTime() + ".apk"
+                        output.outputFile = new File(outputFile.parent, fileName)
+                    }
+                }
+            }
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE.txt'
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "4g"
+    }
+
+    signingConfigs {
+
+    }
+
+    productFlavors {
+
+        develop {
+            manifestPlaceholders = [CHANNEL: "12000"]
+        }
+
+    }
+}
+
+

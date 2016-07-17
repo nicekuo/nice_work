@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/app_bg_color">
+
+    <LinearLayout
+        android:id="@+id/id_linear_title_bar"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dipX3"
+        android:layout_marginRight="@dimen/dipX3">
+        <RelativeLayout
+            android:id="@+id/id_rela_all"
+            style="@style/style_order_tab_out">
+            <TextView
+                android:id="@+id/id_tv_all"
+                style="@style/style_order_tab_in"
+                android:text="@string/hint_order_status_all"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/id_rela_unpaid"
+            style="@style/style_order_tab_out">
+            <TextView
+                android:id="@+id/id_tv_unpaid"
+                style="@style/style_order_tab_in"
+                android:text="@string/hint_order_status_unpaid"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/id_rela_paid"
+            style="@style/style_order_tab_out">
+            <TextView
+                android:id="@+id/id_tv_paid"
+                style="@style/style_order_tab_in"
+                android:text="@string/hint_order_status_paid"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/id_rela_comment"
+            style="@style/style_order_tab_out">
+            <TextView
+                android:id="@+id/id_tv_comment"
+                style="@style/style_order_tab_in"
+                android:text="@string/hint_order_status_comment"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <!--界面切换-->
+    <FrameLayout
+        android:id="@+id/id_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

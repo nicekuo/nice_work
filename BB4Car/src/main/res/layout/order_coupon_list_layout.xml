@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.coupon.MyCouponActivity">
+
+
+
+    <cn.finalteam.loadingviewfinal.SwipeRefreshLayoutFinal
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/coupon_refresh_layout"
+        android:background="@color/app_bg_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"><!--设置loading颜色-->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/empty_coupon_view"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:text="什么都没有"
+                android:layout_height="match_parent" />
+
+            <cn.finalteam.loadingviewfinal.ListViewFinal
+                android:id="@+id/id_lv_coupon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                app:noLoadMoreHideView="false" />
+            <!--默认false-->
+            <!--app:loadMoreMode="click|scroll"&lt;!&ndash;默认scroll&ndash;&gt;-->
+            <!--app:loadMoreView="cn.finalteam.loadingviewfinal.DefaultLoadMoreView"&lt;!&ndash;默认DefaultLoadMoreView，可在Java中配置&ndash;&gt;-->
+            <!--app:noLoadMoreHideView="false"&lt;!&ndash;没有更多了是否隐藏footerview&ndash;&gt;-->
+            <com.naneng.jiche.ui.ErrorViewForReload
+                android:id="@+id/errorView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                />
+        </FrameLayout>
+    </cn.finalteam.loadingviewfinal.SwipeRefreshLayoutFinal>
+
+
+
+</LinearLayout>

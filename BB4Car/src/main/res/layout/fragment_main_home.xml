@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/home_home_title" />
+
+    <!--汽车选择-->
+    <TextView
+        android:id="@+id/id_btn_myfavorite"
+        android:layout_width="match_parent"
+        android:paddingRight="@dimen/dipX10"
+        android:layout_height="@dimen/common_button_height"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:textSize="@dimen/txt_size_item_title"
+        android:textColor="@color/text_333333"
+        android:drawableRight="@drawable/icon_errow_right"
+        />
+
+    <View
+        android:background="@color/line_color"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg_color"
+        android:fillViewport="true"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="100dp"
+                >
+
+            </LinearLayout>
+
+
+            <com.naneng.jiche.ui.ErrorViewForReload
+                android:id="@+id/errorView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                />
+
+        </FrameLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+
+

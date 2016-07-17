@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/app_bg_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.finalteam.loadingviewfinal.SwipeRefreshLayoutFinal
+        android:id="@+id/message_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg_color"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/emptyView"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:text="什么都没有"
+                android:layout_height="match_parent" />
+
+            <cn.finalteam.loadingviewfinal.ListViewFinal
+                android:id="@+id/id_msg_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:dividerHeight="5dip"
+                android:divider="@null"
+                app:noLoadMoreHideView="false" />
+            <com.naneng.jiche.ui.ErrorViewForReload
+                android:id="@+id/errorView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                />
+
+        </FrameLayout>
+
+    </cn.finalteam.loadingviewfinal.SwipeRefreshLayoutFinal>
+
+
+
+
+
+</LinearLayout>
