@@ -38,7 +38,7 @@
                         android:textSize="@dimen/txt_size_item_middle" />
                 </LinearLayout>
 
-                <com.naneng.jiche.ui.order.ViewServiceInfo
+                <com.nice.work.ui.order.ViewServiceInfo
                     android:id="@+id/serviceInfo"
                     android:layout_marginTop="@dimen/dipX15"
                     android:layout_width="match_parent"

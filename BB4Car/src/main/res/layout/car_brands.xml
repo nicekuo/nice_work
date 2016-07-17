@@ -27,7 +27,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_margin="5dip" />
     </LinearLayout>
-    <com.naneng.jiche.ui.ErrorViewForReload
+    <com.nice.work.ui.ErrorViewForReload
         android:id="@+id/errorView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

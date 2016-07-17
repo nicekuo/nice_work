@@ -37,7 +37,7 @@
             <!--app:loadMoreMode="click|scroll"&lt;!&ndash;默认scroll&ndash;&gt;-->
             <!--app:loadMoreView="cn.finalteam.loadingviewfinal.DefaultLoadMoreView"&lt;!&ndash;默认DefaultLoadMoreView，可在Java中配置&ndash;&gt;-->
             <!--app:noLoadMoreHideView="false"&lt;!&ndash;没有更多了是否隐藏footerview&ndash;&gt;-->
-            <com.naneng.jiche.ui.ErrorViewForReload
+            <com.nice.work.ui.ErrorViewForReload
                 android:id="@+id/errorView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

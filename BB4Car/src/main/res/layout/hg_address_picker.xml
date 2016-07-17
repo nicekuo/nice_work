@@ -32,19 +32,19 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp">
 
-            <com.naneng.jiche.ui.city.WheelView
+            <com.nice.work.ui.city.WheelView
                 android:id="@+id/id_province"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
 
-            <com.naneng.jiche.ui.city.WheelView
+            <com.nice.work.ui.city.WheelView
                 android:id="@+id/id_city"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
 
-            <com.naneng.jiche.ui.city.WheelView
+            <com.nice.work.ui.city.WheelView
                 android:id="@+id/id_district"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"

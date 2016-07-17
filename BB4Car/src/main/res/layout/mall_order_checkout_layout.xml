@@ -210,14 +210,14 @@
 
             </LinearLayout>
 
-            <com.naneng.jiche.ui.order.ViewShopInfo
+            <com.nice.work.ui.order.ViewShopInfo
                 android:id="@+id/shopinfo"
                 android:layout_marginTop="@dimen/dipX15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
 
-            <com.naneng.jiche.ui.order.ViewServiceInfo
+            <com.nice.work.ui.order.ViewServiceInfo
                 android:id="@+id/serviceInfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>

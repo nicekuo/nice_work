@@ -39,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.naneng.jiche.widget.pickerview.CharacterPickerView
+        <com.nice.work.widget.pickerview.CharacterPickerView
             android:id="@+id/j_optionspicker"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

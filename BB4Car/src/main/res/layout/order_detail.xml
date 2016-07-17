@@ -25,13 +25,13 @@
             android:shadowRadius="1"
             />
 
-        <com.naneng.jiche.ui.order.ViewShopInfo
+        <com.nice.work.ui.order.ViewShopInfo
             android:id="@+id/shopinfo"
             android:layout_width="match_parent"
             android:visibility="gone"
             android:layout_height="wrap_content" />
 
-        <com.naneng.jiche.ui.order.ViewAddressInfo
+        <com.nice.work.ui.order.ViewAddressInfo
             android:id="@+id/addressInfo"
             android:visibility="gone"
             android:layout_width="match_parent"
@@ -74,7 +74,7 @@
 
         </LinearLayout>
 
-        <com.naneng.jiche.ui.order.ViewServiceInfo
+        <com.nice.work.ui.order.ViewServiceInfo
             android:id="@+id/serviceInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -101,12 +101,12 @@
         </View>
 
 
-        <com.naneng.jiche.ui.order.ViewOrderTotalData
+        <com.nice.work.ui.order.ViewOrderTotalData
             android:id="@+id/totalInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        </com.naneng.jiche.ui.order.ViewOrderTotalData>
+        </com.nice.work.ui.order.ViewOrderTotalData>
 
 
 
@@ -140,7 +140,7 @@
 
 
 
-        <com.naneng.jiche.ui.order.ViewOrderButtons
+        <com.nice.work.ui.order.ViewOrderButtons
             android:id="@+id/buttons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

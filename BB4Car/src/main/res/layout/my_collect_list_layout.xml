@@ -23,7 +23,7 @@
                 android:divider="@null"
                 app:noLoadMoreHideView="false" />
 
-            <com.naneng.jiche.ui.ErrorViewForReload
+            <com.nice.work.ui.ErrorViewForReload
                 android:id="@+id/errorView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

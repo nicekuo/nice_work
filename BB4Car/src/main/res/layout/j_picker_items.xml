@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:padding="4dip">
-        <com.naneng.jiche.widget.pickerview.LoopView
+        <com.nice.work.widget.pickerview.LoopView
             android:id="@+id/j_options1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:padding="4dip">
-        <com.naneng.jiche.widget.pickerview.LoopView
+        <com.nice.work.widget.pickerview.LoopView
             android:id="@+id/j_options2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:padding="4dip">
-        <com.naneng.jiche.widget.pickerview.LoopView
+        <com.nice.work.widget.pickerview.LoopView
             android:id="@+id/j_options3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
